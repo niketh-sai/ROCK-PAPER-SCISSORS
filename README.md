@@ -174,32 +174,10 @@ The statistics dashboard provides comprehensive analytics:
 - Touch-friendly interface
 - Adaptive card sizes
 
-## 🔧 Configuration
-
-### Sound Effects
-Sound effects can be toggled in the sidebar. To add actual sound files:
-1. Place MP3 files in `assets/sounds/`
-2. Update the `play_sound()` function in `app.py` to play the files
-
 ### Customization
 - **Colors**: Modify CSS variables in `styles.css`
 - **Difficulty**: Adjust AI parameters in `ai_engine.py`
 - **Statistics**: Extend `statistics.py` for additional metrics
-
-## 🧪 Testing
-
-The application has been tested for:
-- ✅ All game rules (Rock beats Scissors, etc.)
-- ✅ Easy AI random selection
-- ✅ Medium AI frequency analysis
-- ✅ Hard AI pattern recognition
-- ✅ Player vs Player mode
-- ✅ Best of 3, 5, 7 modes
-- ✅ Scoreboard accuracy
-- ✅ Match history recording
-- ✅ Reset functionality
-- ✅ Statistics persistence
-- ✅ Responsive design
 
 ## 📝 Technical Details
 
@@ -224,21 +202,7 @@ The application has been tested for:
 - Minimal reruns
 - Responsive rendering
 
-## 🐛 Troubleshooting
 
-### Common Issues
-
-**Issue**: Application won't start
-- **Solution**: Ensure Python 3.11+ is installed and dependencies are up to date
-
-**Issue**: Styling not loading
-- **Solution**: Check that `styles.css` is in the same directory as `app.py`
-
-**Issue**: Statistics not saving
-- **Solution**: Streamlit session state resets on refresh; use database for persistence
-
-**Issue**: AI not adapting
-- **Solution**: Play more rounds to build up move history for pattern recognition
 
 ## 🤝 Contributing
 
@@ -254,23 +218,3 @@ Contributions are welcome! Areas for improvement:
 
 This project is open source and available under the MIT License.
 
-## 🎯 Future Enhancements
-
-- [ ] User authentication and profiles
-- [ ] Online multiplayer
-- [ ] Leaderboards
-- [ ] More game variations
-- [ ] Advanced AI with machine learning
-- [ ] Mobile app version
-- [ ] Tournament mode
-- [ ] Replay system
-
-## 📧 Support
-
-For issues, questions, or suggestions, please open an issue on the repository.
-
----
-
-**Built with ❤️ using Python and Streamlit**
-
-**Generated with [Devin](https://devin.ai)**
